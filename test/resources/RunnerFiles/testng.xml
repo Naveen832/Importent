@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="yp.com.Listeners.Listner_Methods" />
+	</listeners>
+	<test thread-count="5" name="Scenario 1">
+		<classes>
+			<class name="yp.com.TestCases.Login_createUser_Test"></class>
+		</classes>
+	</test>
+	<!--Test -->
+	<test name="Scenario 2">
+		<classes>
+			<class name="yp.com.TestCases.JobTitles_PayGrades_Test" />
+		</classes>
+	</test>
+	<!--Test -->
+	<test name="Scenario 4">
+		<classes>
+			<class name="yp.com.TestCases.Leave_Apply_Delete_Test" />
+		</classes>
+	</test>
+</suite> 
+<!--Suite -->
